@@ -10,6 +10,10 @@ $CMP 74LVC74
 F http://www.mouser.com/ds/2/149/74LCX74-1006560.pdf
 $ENDCMP
 #
+$CMP 74LVC74ABQ
+F http://www.mouser.com/ds/2/149/74LCX74-1006560.pdf
+$ENDCMP
+#
 $CMP AD9851
 D AD9851 180 MHz DAC/DDS Synthesizer
 F AD9851.pdf
@@ -35,6 +39,14 @@ D USB Waterproof JAE
 F https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/DX4RNW5HJ3_Dwg.pdf
 $ENDCMP
 #
+$CMP MAX5216
+F https://datasheets.maximintegrated.com/en/ds/MAX5214-MAX5216.pdf
+$ENDCMP
+#
+$CMP MCP33131D
+F https://docs.rs-online.com/c20b/0900766b81651e60.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
@@ -44,6 +56,18 @@ $ENDCMP
 $CMP RJ11
 D RJ12 connector with 2 shield pins
 K RJ12 connector
+$ENDCMP
+#
+$CMP TPS563200
+D 3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS565208
+D TPS565208 4.5-V to 17-V Input, 5-A Synchronous Step-Down Voltage Regulator in SOT-23
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG
@@ -104,6 +128,16 @@ $CMP TXB0108PWR
 D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
 K bidirectional voltage level translator
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP Transformer-230vac-9vac-1va
+D RS-732-0421
+$ENDCMP
+#
+$CMP Transformer_1P_2S
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+F ~
 $ENDCMP
 #
 #End Doc Library
